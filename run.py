@@ -6,7 +6,7 @@ app = create_app()
 
 # Настраиваем CORS (можешь расширить список origin-ов)
 CORS(app, resources={r"/*": {"origins": [
-    "https://yourdomain.com"
+    "https://succinct-web-front.vercel.app"
 ]}})
 
 # Это нужно только для локального запуска
